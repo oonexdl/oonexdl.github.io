@@ -50,7 +50,7 @@ How AngularJs initializes?
 - AngularJs looks for the ngApp directive which designates your application root, once the ngApp directive is found then:
 
 
-![concepts-startup](../dist/img/concepts-startup.png)
+![concepts-startup](/img/concepts-startup.png)
 
 - Load the module associated with the directive
 - Create the application injector
@@ -212,7 +212,7 @@ myApp.controller('GreetController', ['$scope', '$rootScope', function($scope, $r
 ```
 
 
-![concepts-scope](../dist/img/concepts-scope.png)
+![concepts-scope](/img/concepts-scope.png)
 
 
 - Watch expressions and propagate events
@@ -385,7 +385,7 @@ Browser's Event Loop
 
 AngularJs Event Processing loop
 
-![concepts-runtime](../dist/img/concepts-runtime.png)
+![concepts-runtime](/img/concepts-runtime.png)
 
 
 - Enter the AngularJS execution context by calling scope.$apply(stimulusFn)
