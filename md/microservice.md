@@ -313,17 +313,3 @@ REST 的代替品，实现了多语言 RPC(远程过程调用) 客户端和服�
 
 
 将单体应用内现有的模块转变为独立的微服务。每当提取模块并将其转化为服务，单体应用就会收缩。一旦转化了足够的模块，单体应用也将彻底消失，或者小到成为另一个微服务
-
-
-
-群脉在微服务上的实践
-
-
-现阶段
-
-<img src="/img/scrm-microservice-begin.png" width="500px" height="500px"/>
-
-
-最终结果
-
-<img src="/img/scrm-microservice-end.png" width="500px" height="500px"/>
