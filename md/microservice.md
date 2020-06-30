@@ -4,7 +4,6 @@
 - <p class="fragment fade-up">服务发现</p>
 - <p class="fragment fade-up">数据管理</p>
 - <p class="fragment fade-up">重构单体应用</p>
-- <p class="fragment fade-up">群脉在微服务上的实践</p>
 
 
 
