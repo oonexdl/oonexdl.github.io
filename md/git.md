@@ -92,6 +92,17 @@ Fast-forwarded login to master.
 
 
 
+### tips
+
+```sh
+$ git config --global alias.s status
+$ git config --global alias.d diff
+$ git config --global alias.c checkout
+...
+```
+
+
+
 ### 资源链接
 
 - https://git-scm.com/docs
