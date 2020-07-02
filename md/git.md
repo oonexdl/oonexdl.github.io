@@ -84,6 +84,13 @@ Fast-forwarded login to master.
 ```
 
 
+### so?
+
+
+- using **rebase** when u'r working on a feature branch and you need changes from the main master branch
+- using **merge** when u want to merge a feature branch back into your master branch
+
+
 
 ### 资源链接
 
