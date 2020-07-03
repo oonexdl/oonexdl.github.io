@@ -17,13 +17,13 @@ Git = 分布式系统 + 版本控制
 大部分操作都是离线的，无需网络亦可工作
 
 
-每个客户端节点都保存有整个文件树
+每个客户端节点都保存有整个文件树，冗余意味着无惧单点失败
 
 
-至少有一个客户端节点保存着当前最新的完整文件树
+节点间通信依赖一个共享的"中心"服务器
 
 
-冗余意味着无惧单点失败
+<img src="/img/git-distributed-system.png" style="background-color: white"/>
 
 
 
@@ -31,13 +31,13 @@ Git = 分布式系统 + 版本控制
 
 
 
-### 分支模型
+### 分支策略
 
 
 <img src="/img/main-branches.png" width="300px" height="500px"/>
 <img src="/img/feature-branchs.png" width="200px" height="500px"/>
 <img src="/img/hotfix-branches.png" width="300px" height="500px"/>
-<p>branch models</p>
+<p>branchs</p>
 
 
 ```sh
@@ -57,7 +57,7 @@ $ git push origin develop
 ```
 
 
-<img src="/img/merge-without-ff.png" width="500px" height="500px"/><p>force not Fast-forwarded when merging</p>
+<img src="/img/merge-without-ff.png" width="500px" height="500px"/><p>not Fast-forwarded when merging</p>
 
 
 
