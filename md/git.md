@@ -103,7 +103,4 @@ $ git config --global alias.c checkout
 
 
 
-### 资源链接
-
-- https://git-scm.com/docs
-- https://www.google.com
+### Q&A
